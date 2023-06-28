@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
                 </Link>
             </header>
 
-            <div className='w-1/2 my-8 mx-auto h-screen'>
+            <div className='w-1/2 my-8 mx-auto h-auto'>
                 {children}
             </div>
 
