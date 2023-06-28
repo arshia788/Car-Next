@@ -6,13 +6,15 @@ const CarsPage = ({ data }) => {
             {
                 data.map(item =>
                     // ! be aware that the div should be inside the loop
-                    <div className="
+                    <div 
+                    key={item.id}
+                    className="
                     xs:col-span-12 
                     md:col-span-6 
                     lg:col-span-4
                     m-1
                     ">
-                        <Card key={item.id} {...item} />
+                        <Card  {...item} />
                     </div>
                 )
             }

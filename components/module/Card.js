@@ -5,7 +5,6 @@ const Card = (props) => {
     const { name, image, id, model,
         year, distance, location, price
     } = props
-    console.log(props);
 
     return (
         <div className='shadow-lg shadow-gray-300 p-1 box-border 
