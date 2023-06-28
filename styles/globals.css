@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    padding: 0;
-    margin: 0;
-    background: border-box;
-}
 
-a{
-    color: inherit;
-    text-decoration: none;
-}
 
 

@@ -1,12 +1,11 @@
 import '../styles/globals.css';
-import Layout from './layout';
-
+import Layout from '../components/layout/Layout';
 
 function MyApp({ Component, pageProps }) {
-  
+
   return (
-    <Layout>
-      <Component {...pageProps}/>
+    <Layout a="milad" >
+      <Component {...pageProps} />
     </Layout>
   )
 }
