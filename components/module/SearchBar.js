@@ -9,8 +9,12 @@ const SearchBar = () => {
 
     console.log(min);
 
+
+    // gofti ke agar har 2 bashe biad anjam bedeh 
     const searchHandler=()=>{
         if(min && max){
+
+            // * omadi frestadi be on safhe va rafti on ha ro ham behesh dadi
             router.push(`/filter/${min}/${max}`)
         }else{
             alert('Please enter the max and min of the inputs! ')

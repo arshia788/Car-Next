@@ -27,7 +27,7 @@ const Carlist = ({data}) => {
                         return(
                             <div 
                             className="xs:col-span-12 md:col-span-6
-                            lg:col-span-3
+                            lg:col-span-4
                             "
                             key={item.id}>
                                 <Card {...item}/>
