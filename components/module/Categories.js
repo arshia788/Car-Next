@@ -30,7 +30,7 @@ const Categories = () => {
                 </div>
             </Link>
 
-            <Link href='/categories/sedan' 
+            <Link href='/categories/suv' 
             className="
                 xs:col-span-12
                 md:col-span-6
@@ -42,76 +42,47 @@ const Categories = () => {
              bg-green-600 
              rounded-sm text-lg
              text-white items-center">
-                    <p>sedan</p>
-                    <Sedan
-                    />
-                </div>
-            </Link>
-
-            <Link href='/categories/sedan' 
-            className="
-                xs:col-span-12
-                md:col-span-6
-                lg:col-span-3
-                mb-2
-            ">
-                <div className="
-                flex flex-col 
-             bg-green-600 
-             rounded-sm text-lg
-             text-white items-center">
-                    <p>sedan</p>
-                    <Sedan
-                    />
-                </div>
-            </Link>
-
-            <Link href='/categories/sedan' 
-            className="
-                xs:col-span-12
-                md:col-span-6
-                lg:col-span-3
-                mb-2
-            ">
-                <div className="
-                flex flex-col 
-             bg-green-600 
-             rounded-sm text-lg
-             text-white items-center">
-                    <p>sedan</p>
-                    <Sedan
-                    />
-                </div>
-            </Link>
-            
-
-            {/* <Link href='/categories/suv'>
-                <div className="flex flex-col bg-green-600 
-            py-1 px-8 rounded-sm text-lg
-            text-white items-center">
                     <p>suv</p>
-                    <Suv />
+                    <Suv
+                    />
                 </div>
             </Link>
 
-
-            <Link href='/categories/hatchback'>
-                <div className="flex flex-col bg-green-600 
-            py-1 px-6 rounded-sm text-lg
-            text-white items-center">
+            <Link href='/categories/hatchback' 
+            className="
+                xs:col-span-12
+                md:col-span-6
+                lg:col-span-3
+                mb-2
+            ">
+                <div className="
+                flex flex-col 
+             bg-green-600 
+             rounded-sm text-lg
+             text-white items-center">
                     <p>Hatchback</p>
-                    <Hatchback />
+                    <Hatchback
+                    />
                 </div>
             </Link>
 
-            <Link href='/categories/sport'>
-                <div className="flex flex-col bg-green-600 
-            py-1 px-8 rounded-sm text-lg
-            text-white items-center">
-                    <p>sport</p>
-                    <Sport />
+            <Link href='/categories/sport' 
+            className="
+                xs:col-span-12
+                md:col-span-6
+                lg:col-span-3
+                mb-2
+            ">
+                <div className="
+                flex flex-col 
+             bg-green-600 
+             rounded-sm text-lg
+             text-white items-center">
+                    <p>Sport</p>
+                    <Sport
+                    />
                 </div>
-            </Link> */}
+            </Link>
 
         </div>
     );

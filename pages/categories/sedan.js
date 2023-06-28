@@ -1,11 +1,17 @@
-import React from 'react';
+import Carlist from '../../components/templates/Carlist';
+import carsdata from '../../data/carsdata';
 
-const sedan = () => {
+
+const Sedan = () => {
+
+    const sedanCars= carsdata.filter(item=> item.category === 'sedan')
+    console.log(sedanCars);
+
     return (
         <div>
-            
+            <Carlist data={sedanCars}/>
         </div>
     );
 };
 
-export default sedan;
+export default Sedan;
