@@ -12,7 +12,7 @@ const CarsPage = ({ data }) => {
                     xs:col-span-12 
                     md:col-span-6 
                     lg:col-span-4
-                    m-1
+                    mt-4
                     ">
                         <Card  {...item} />
                     </div>
