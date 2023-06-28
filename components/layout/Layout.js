@@ -5,10 +5,11 @@ const Layout = ({ children }) => {
 
     return (
         <>
-            <header className='flex justify-center items-center text-center '>
+            <header className='flex justify-center items-center
+             text-center '>
+
                 <Link href="/"
-                    className='bg-green-600 w-60 p-2 m-1 rounded-sm'
-                >
+                    className='bg-green-600 w-60 p-2 mt-3  rounded-sm'>
                     <h2 className='text-2xl text-teal-50
                     mb-1 border-b-2 
                     '>BOTOCAR</h2>
@@ -23,7 +24,7 @@ const Layout = ({ children }) => {
             </div>
 
             <footer className='text-white bg-green-600
-            p-2 text-center
+            p-2  text-center 
             '>
                 This Project Is By Next.js &copy;
             </footer>
