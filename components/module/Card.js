@@ -22,7 +22,8 @@ const Card = (props) => {
                 <p className='text-gray-500 mt-1'>{year}. {distance}k/m</p>
 
                 {
-                    name === 'Maserati' &&
+                   
+                   name === 'Maserati' &&
                     <div className='flex justify-between items-center mt-5 py-3'>
 
                         <p className='bg-green-600 rounded-md text-md text-white'>$ {price}</p>
